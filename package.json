@@ -1,9 +1,31 @@
 {
-  "dependencies": {
-    "openai": "^4.103.0"
+  "name": "ms-reactor-ai-agent",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sam3690/MS-Reactor-ai-agent#readme",
+  "bugs": {
+    "url": "https://github.com/sam3690/MS-Reactor-ai-agent/issues"
   },
-  "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam3690/MS-Reactor-ai-agent.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node js-agent/app.js"
+  },
+  "dependencies": {
+    "@azure/search-documents": "^12.1.0",
+    "@langchain/community": "^0.3.45",
+    "@langchain/core": "^0.3.57",
+    "@langchain/ollama": "^0.2.0",
+    "@langchain/openai": "^0.5.11",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.27",
+    "youtube-transcript": "^1.2.1"
   }
 }
